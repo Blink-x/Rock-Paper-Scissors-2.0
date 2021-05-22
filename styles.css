@@ -1,0 +1,92 @@
+w {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(16, 17, 17);
+}
+header {
+    background-color: rgb(240, 233, 233);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 25px
+}
+
+h1 {
+    color: rgb(16, 17, 17);
+}
+
+p {
+    color:rgb(240, 233, 233);
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+.scoreboard {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    border: 4.5px groove whitesmoke;
+    width: 25vw;
+    margin: 30px auto;
+    font-size: 50px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+}
+
+.badge {
+    background: cornflowerblue;
+    font-size: 17.5px;
+    padding: 3px 10px;
+}
+
+#userLabel {
+position: absolute;
+top: 25px;
+left: -20px;
+border-radius: 8px;
+}
+
+#compLabel {
+position: absolute;
+top: 25px;
+right: -40px;
+border-radius: 8px;
+
+}
+
+.result {
+    font-size: 25px;
+
+}
+
+.choices {
+    text-align: center;
+    margin: 25px;
+}
+.choice {
+    display: inline-block;
+    padding: 25px;
+    margin: 0 20px;
+    transition: all 0.25s ease;
+    border: 3px solid white;
+}
+
+
+.choice:hover
+{
+    transform: scale(1.1);
+    cursor: pointer;
+    background: rgb(164, 235, 174);
+}
+
+img {
+    width: 75px;
+    height: 110px;
+}
+
+#caption {
+    font-size: larger;
+}
