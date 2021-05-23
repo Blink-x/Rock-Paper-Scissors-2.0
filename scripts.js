@@ -24,20 +24,18 @@ function win(userChoice, compChoice) {
     userScore++;
     userScore_span.innerHTML = userScore;
     compScore_span.innerHTML = compScore;
-    result_p.innerHTML = userChoice + " beats " + compChoice + ", you win!";
+    result_p.innerHTML = `${userChoice} beats ${compChoice}, you win! 👍`;
 }
 
 function lose(userChoice, compChoice) {
     compScore++;
     userScore_span.innerHTML = userScore;
     compScore_span.innerHTML = compScore;
-    result_p.innerHTML = compChoice + " beats " + userChoice + ", you lost!";
+    result_p.innerHTML = `${userChoice} loses to ${compChoice}, you lost this round! 😡`;
 }
 
 function draw(userChoice, computerChoice) {
-    userScore_span.innerHTML = userScore;
-    compScore_span.innerHTML = compScore;
-    result_p.innerHTML = "What the fuck! It's a tie!";
+    result_p.innerHTML = `What the fuck! It's a tie! 🤔`;
 }
 
 //function to take the random choice of computer, and the choice of a human based off what button
